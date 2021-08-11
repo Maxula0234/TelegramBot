@@ -3,8 +3,6 @@ import CurrencyService.CurrencyModeService;
 import Data.Currency;
 import Utils.HelpUtils;
 import lombok.SneakyThrows;
-import lombok.Value;
-import org.glassfish.grizzly.utils.StringFilter;
 import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
@@ -62,7 +60,6 @@ public class TgBot extends TelegramLongPollingBot {
     }
 
     /**
-     *
      * Проверяем введеные в чат сообщения
      * Проверяем запросы на обновления
      *
